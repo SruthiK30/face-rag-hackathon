@@ -8,9 +8,6 @@ A face recognition system combined with Retrieval-Augmented Generation (RAG), bu
 - Retrieves relevant context/data tied to that person
 - Uses OpenAI's API to generate a natural-language response based on the retrieved information
 
-## Architecture
-See `architecture.png` for the full system design and data flow.
-
 ## Project Structure
 - `face_recognition/` — face detection and recognition logic
 - `rag_engine/` — retrieval-augmented generation pipeline (OpenAI API integration)
